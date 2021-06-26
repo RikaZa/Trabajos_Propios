@@ -40,8 +40,24 @@ namespace Deber_Arboles
             };
         }
     }
-    class ManejoArbol
+    class ManejoMensajes
     {
         
+    }
+
+    class ContadorNiveles
+    {
+
+    }
+
+    class ContadorHojas
+    {
+        
+    }
+
+    class ContadorNodos 
+    {
+
+
     }
 }
