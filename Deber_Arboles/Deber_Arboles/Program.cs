@@ -14,7 +14,7 @@ namespace Deber_Arboles
                 Empleados = 1,
                 NombrePresidente = "Jonathan",
                 ApellidoPresidente = "Zambrano",
-                AñosLabor = 1,
+                AñosLabor = 10,
                 Departamentos = new List<Departamento>
                 {
                   new AsesorPresidencia
@@ -73,6 +73,8 @@ namespace Deber_Arboles
             Console.WriteLine($" Los niveles son: {control.ContarNiveles(raiz,1)}");
             Console.WriteLine($" Las hojas son: {control.ContarHojas(raiz)}");
             Console.WriteLine($" Los nodos son: {control.ContarNodos(raiz)}");
+
+            
 
         }
     }

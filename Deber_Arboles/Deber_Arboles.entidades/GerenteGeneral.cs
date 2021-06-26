@@ -1,4 +1,6 @@
-﻿namespace Deber_Arboles.entidades
+﻿using System;
+
+namespace Deber_Arboles.entidades
 {
     public class GerenteGeneral : Departamento
     {
