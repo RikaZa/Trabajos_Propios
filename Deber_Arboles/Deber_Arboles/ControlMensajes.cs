@@ -54,22 +54,22 @@ namespace Deber_Arboles
             return !raiz.Departamentos.Any();
         }
 
-        public int ContarEmpleados(Departamento raiz, int valor) 
-        {
-            int empleadoNume = 0;
-            if (raiz != null)
-            {
-                foreach ( Departamento int.Parse(numeroEmpleados) in raiz.Empleados)
-                {
-                    ContarEmpleados(numeroEmpleados, valor + 1);
-                    if (valor > empleadoNume)
-                    {
-                        empleadoNume = valor;
-                    }
-                }
+        //public int ContarEmpleados(Departamento raiz, int valor) 
+       // {
+         //   int empleadoNume = 0;
+          //  if (raiz != null)
+         //   {
+           //     foreach ( Departamento int.Parse(numeroEmpleados) in raiz.Empleados)
+            //    {
+             //       ContarEmpleados(numeroEmpleados, valor + 1);
+              //      if (valor > empleadoNume)
+               //     {
+              //          empleadoNume = valor;
+              //      }
+           //     }
 
-            }
-            return empleadoNume + 1;
-        }
+          //  }
+         //   return empleadoNume + 1;
+      //  }
     }
 }
