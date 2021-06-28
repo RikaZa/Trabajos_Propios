@@ -68,12 +68,30 @@ namespace Deber_Arboles
                   }
                 }
             };
+            int numero;
+            Console.WriteLine("Hola ingresa el número según tu solicitud:\n1 = Saber Niveles.\n2 = Saber hojas.\n3 = Saber los nodos.");
+            numero = int.Parse(Console.ReadLine());
+            ControlMensajes control = new ControlMensajes();   
+                switch (numero)     
+                {        
+                    case 1:
+                        Console.WriteLine($" Los niveles son: {control.ContarNiveles(raiz, 1)}");
+                        break;
+                    case 2:
+                        Console.WriteLine($" Las hojas son: {control.ContarHojas(raiz)}");
+                        break;
+                    case 3:
+                        Console.WriteLine($" Los nodos son: {control.ContarNodos(raiz)}");
+                        break;
+                    default:
+                        Console.WriteLine("No ingresaste una opción correcta");
+                        break;
+                }
+   
+           
 
-            ControlMensajes control = new ControlMensajes();
-            Console.WriteLine($" Los niveles son: {control.ContarNiveles(raiz,1)}");
-            Console.WriteLine($" Las hojas son: {control.ContarHojas(raiz)}");
-            Console.WriteLine($" Los nodos son: {control.ContarNodos(raiz)}");
 
+           
             
 
         }
