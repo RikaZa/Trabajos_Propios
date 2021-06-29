@@ -87,13 +87,6 @@ namespace Deber_Arboles
                         Console.WriteLine("No ingresaste una opción correcta");
                         break;
                 }
-   
-           
-
-
-           
-            
-
         }
     }
 }
